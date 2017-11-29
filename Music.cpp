@@ -50,6 +50,6 @@ void Music::ShowMusic() // spits out information
 
 ofstream& operator<<(ofstream &fs, Music *item)
 {
-	fs << item->SongName << "," << item->Artist << "," << item->AlbumName << item->Rating << endl;
+	fs << item->SongName << "," << item->Artist << "," << item->AlbumName << "," << item->Rating << endl;
 	return fs;
 }
